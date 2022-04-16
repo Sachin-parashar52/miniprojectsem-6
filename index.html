@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MeRA MaT</title>
+</head>
+<body>
+    <h1>ONLINE VOTING SYSTEM</h1>
+    <hr>
+    <h3>Login</h3>
+    <div id="form">
+    <form action="backend.php"></form>
+    <div>
+    <label for="first">Voter ID:</label><br>
+    <input type="text" id="first" name="id" placeholder=" Enter voter id"  >
+</div>
+<div>
+    <label for="pass">Password:</label><br>
+    <input type="password" name="pass" id="pass" placeholder="Enter your password">
+</div>
+<div>
+    <label for="type">Select your Role:</label><br>
+    <select name="type" id="type">
+        <option value="voter">voter</option>
+        <option value="Party">party</option>
+    </select>
+</div>
+<br>
+    <input type="button" id="but" value="Login">
+    <div id="reg">
+        New User?
+        <a href="#" id="link">Register here</a>
+    </div>
+</div>
+</body>
+</html>

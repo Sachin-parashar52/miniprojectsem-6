@@ -1,0 +1,68 @@
+*{
+    background-color: orange;
+}
+h1{
+    display: block;
+margin: auto;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+h3{
+    display: block;
+margin: auto;
+text-align: center;
+margin-top: 25px;
+margin-bottom:25px;
+}
+#form{
+    margin: auto;
+    text-align: center;
+}
+label[for="first"]{
+    margin-left: -80px;
+    font-size: 30px;
+    
+}
+label[for="pass"]{
+    margin-left: -60px;
+    font-size: 30px;
+}
+label[for="type"]{
+    margin-left: 20px;
+    font-size: 30px;
+}
+#first{
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+#pass{
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+#type{
+    /* padding:10px; */
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 25px;
+    padding:10px 88px;
+}
+#link{
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#but{
+    font-size: 20px;
+    border-radius: 10px;
+}
+#reg{
+    margin: 35px;
+}
