@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register here</title>
+</head>
+<body>
+    <H1>Online Voting System</H1>
+    <hr>
+    <H3>Registration</H3>
+    <div id="form">
+        <form action="backend.php">
+            <input type="text" id="Name" name="Name" placeholder="Name">
+            <input type="text" id="Mobile" name="Mobile" placeholder="Mobile NO."><br>
+            <input type="Password" id="pass" name="pass" placeholder="Password">
+            <input type="Password" id="conpass" name="conpass" placeholder="Confirm Password"><br>
+            <input type="text" id="add" name="add" placeholder="Address">
+            <div id="ima">
+                Upload image : <input type="file" name="file" id="img" value="Choose File">
+            </div>
+            <div id="role">
+                Select Your Role <label for="type">Select your Role:</label><br>
+                <select name="type" id="type">
+                    <option value="voter">voter</option>
+                    <option value="Party">party</option>
+                </select>
+            </div>
+            <input type="button" value="Register">
+            Already Register? <a href="../index.html" id="link">Login here</a>
+        </form>
+
+    </div>
+</body>
+</html>

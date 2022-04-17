@@ -18,11 +18,14 @@ margin-bottom:25px;
 #form{
     margin: auto;
     text-align: center;
+    border: 2px solid black;
+    width: 50%;
+    /* background-color: aliceblue; */
 }
 label[for="first"]{
     margin-left: -80px;
     font-size: 30px;
-    
+    border-color: black;
 }
 label[for="pass"]{
     margin-left: -60px;
